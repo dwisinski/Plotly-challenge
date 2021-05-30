@@ -23,3 +23,12 @@
     line-height: normal;
     margin-bottom: -25px;
 }
+
+a:link {
+    color: #2a3a65;
+}
+
+.p-extra {
+    font-size: 0.75em;
+    text-align: center;
+}
