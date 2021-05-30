@@ -1,5 +1,7 @@
 .jumbotron {
-    background-color: #2a3a65;
+    /* background-color: #2a3a65; */
+    background-image: url("./images/bac_header.jpg");
+    background-size: cover;
     color: white;
     border-radius: 12.5px;
     margin-bottom: 20px;
