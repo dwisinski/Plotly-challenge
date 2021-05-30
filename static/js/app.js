@@ -61,7 +61,7 @@ function buildCharts(sample_id) {
             }
         };
         
-        Plotly.newPlot("bar", bar_data, bar_layout);
+        Plotly.newPlot("bar", bar_data, bar_layout, {displayModeBar: false});
 
         var bubble_data = [
             { x: otu_ids,
@@ -83,7 +83,7 @@ function buildCharts(sample_id) {
             xaxis: {title: "OTU ID"}
         };
 
-        Plotly.newPlot("bubble", bubble_data, bubble_layout);
+        Plotly.newPlot("bubble", bubble_data, bubble_layout, {displayModeBar: false});
 
         var gauge_data = [
             { domain: {x: [0, 1], y: [0, 1]},
@@ -110,7 +110,7 @@ function buildCharts(sample_id) {
           
           var gauge_layout = { margin: { t: 0, b: 0 } };
           
-          Plotly.newPlot("gauge", gauge_data, gauge_layout);
+          Plotly.newPlot("gauge", gauge_data, gauge_layout, {displayModeBar: false});
         
     });
 }
