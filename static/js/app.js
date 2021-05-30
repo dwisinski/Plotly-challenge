@@ -108,7 +108,7 @@ function buildCharts(sample_id) {
             }
           ];
           
-          var gauge_layout = { width: 600, height: 450, margin: { t: 0, b: 0 } };
+          var gauge_layout = { margin: { t: 0, b: 0 } };
           
           Plotly.newPlot("gauge", gauge_data, gauge_layout);
         
