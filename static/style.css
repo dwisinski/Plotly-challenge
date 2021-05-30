@@ -1,0 +1,23 @@
+.jumbotron {
+    background-color: #2a3a65;
+    color: white;
+    border-radius: 12.5px;
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+.card-header {
+    background-color: #cacecb;
+    border-radius: 12.5px;
+    }
+
+.card-body {
+    text-transform: uppercase;
+    display: block;
+    font-size: 0.75em;
+    line-height: normal;
+    margin-bottom: -25px;
+}
